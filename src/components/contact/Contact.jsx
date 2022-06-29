@@ -68,7 +68,7 @@ const Contact = () => {
           <input type="text" name="name" placeholder="Your Full Name" required />
           <input type="text" name="email" placeholder="Your Email" required />
           <textarea name="message" rows="7" placeholder="Your Message"></textarea>
-          <button type="submit" className="btn btn-primary">Send Message</button>
+          <button type="submit" className="btn btn-primary po">Send Message</button>
           <ToastContainer
             position="bottom-center"
             autoClose={2000}
@@ -81,6 +81,7 @@ const Contact = () => {
             pauseOnHover
           />
         </form>
+        
       </div>
     </section>
   )
